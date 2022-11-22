@@ -51,14 +51,19 @@ const inputs = [
     ...config,
     invoiceNumber: invoiceNumber.toString(),
     invoiceDate: format(date, 'MMM dd, yyyy'),
-    paymentText: `${config.paymentText} in ${format(date, 'MMMM')} ${format(
-      date,
-      'yyyy'
-    )}`,
-    paymentAmount: `${config.paymentAmount} USD`,
-    reimbursementAmount: `${config.reimbursementAmount} USD`,
+    paymentText: config.paymentText
+      ? `${config.paymentText} in ${format(date, 'MMMM')} ${format(
+          date,
+          'yyyy'
+        )}`
+      : '',
+    paymentAmount: config.paymentAmount ? `${config.paymentAmount} USD` : '',
+    reimbursementAmount: config.reimbursementAmount
+      ? `${config.reimbursementAmount} USD`
+      : '',
     total: `${
-      (config.paymentAmount as number) + (config.reimbursementAmount as number)
+      ((config.paymentAmount ?? 0) as number) +
+      ((config.reimbursementAmount ?? 0) as number)
     } USD`,
   },
 ]
