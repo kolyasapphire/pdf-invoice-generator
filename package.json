@@ -1,0 +1,22 @@
+{
+  "name": "pdf-invoice-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "kolyasapphire"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@pdfme/generator": "1.0.17",
+    "date-fns": "2.29.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "typescript": "4.9.3",
+    "ts-node": "10.9.1"
+  },
+  "scripts": {
+    "generate": "ts-node index.ts"
+  }
+}

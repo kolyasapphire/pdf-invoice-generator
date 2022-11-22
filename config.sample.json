@@ -1,0 +1,29 @@
+{
+  "companyName": ["Mickey Mouse"],
+  "paymentText": "Base Compensation for Animation services",
+  "paymentAmount": 42000,
+  "reimbursementText": "Reimbursement for gym membership",
+  "reimbursementAmount": 690,
+  "companyData": [
+    "Tax id: 12345",
+    "2495 Lyric Ave",
+    "Los Angeles",
+    "CA 90027",
+    "United States"
+  ],
+  "paymentInformation": [
+    "BANK0000000000000001",
+    "Chase",
+    "SWIFT: CHASUS33XXX",
+    "United States"
+  ],
+  "contactInformation": ["Mickey Mouse", "mickey@disney.com", "407209347639"],
+  "customerData": [
+    "Walt Disney World Resort",
+    "1375 E Buena Vista Dr",
+    "Orlando",
+    "United States",
+    "FL32830",
+    "Reg: 12345"
+  ]
+}
