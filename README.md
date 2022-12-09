@@ -33,6 +33,15 @@ cp config.sample.json config.json
 
 4. Edit `config.json` with your information.
 
+## Optional: Symlink
+
+It is highly advised to create a separate output folder and symlink it to the repo so it can be synced on services like iCloud Drive or Dropbox.
+
+```bash
+rm -r output
+ln -s /full/path/to/synced/folder/Invoices /full/path/to/pdf-invoice-generator/output
+```
+
 ## Generate
 
 From the repo directory:
