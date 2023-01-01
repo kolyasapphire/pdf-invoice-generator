@@ -55,10 +55,10 @@
   dependencies:
     zod "^3.11.6"
 
-"@pdfme/generator@1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@pdfme/generator/-/generator-1.0.17.tgz#b00f046efcfe4c83d3038f03f90fe3eadef17a35"
-  integrity sha512-c1dZzHf2tZ4QlbCsSgopSxK6x5zLnNJqxhgrmQ0nTANVTx9hdhMcYLNICnZqSmPYk2JlZzwsZoU++gzeqWDW/A==
+"@pdfme/generator@1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@pdfme/generator/-/generator-1.0.18.tgz#cefd92ad426e14f53e3753f6510ddf284336df25"
+  integrity sha512-Gk+cctV5/jjwfOAd0DyC1/VGRHBJutq8FBw5/Wbx2OVgPjgYScFBH6bH+A5L8pspa2hTb20DD9z/kpZ9Dc3SDQ==
   dependencies:
     "@pdf-lib/fontkit" "^1.1.1"
     "@pdfme/common" "^1.0.0"
