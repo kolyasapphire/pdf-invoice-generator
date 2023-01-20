@@ -55,15 +55,15 @@
   dependencies:
     zod "^3.11.6"
 
-"@pdfme/generator@1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@pdfme/generator/-/generator-1.0.18.tgz#cefd92ad426e14f53e3753f6510ddf284336df25"
-  integrity sha512-Gk+cctV5/jjwfOAd0DyC1/VGRHBJutq8FBw5/Wbx2OVgPjgYScFBH6bH+A5L8pspa2hTb20DD9z/kpZ9Dc3SDQ==
+"@pdfme/generator@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@pdfme/generator/-/generator-1.1.5.tgz#5072c2bc7b05eedc8950eea3195f0770040bf30e"
+  integrity sha512-ESS8lEGnPKUm/VNAEOiZQu2JD22tg6zNetEWUyTLnzK/Fj9mI6lCw17QABeCY9d/9FAeHtuI8bGFkOiTSFLgVA==
   dependencies:
     "@pdf-lib/fontkit" "^1.1.1"
     "@pdfme/common" "^1.0.0"
     atob "^2.1.2"
-    bwip-js "^2.1.3"
+    bwip-js "^3.2.2"
     pdf-lib "^1.17.1"
 
 "@tsconfig/node10@^1.0.7":
@@ -111,10 +111,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-bwip-js@^2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/bwip-js/-/bwip-js-2.1.3.tgz#f9c09b15caae50a406c5a8de5c2ae4ad4a931584"
-  integrity sha512-1Jf5eB+o6AzpwkHZPj63+/kGesLH30XLL0EC2PUrX+d0+4kMwCYMeqCuytlG318S/lcw27a2JOnZ9I8RO83Krg==
+bwip-js@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/bwip-js/-/bwip-js-3.2.2.tgz#bef1b5b566519754acd251dbe323a2fe1dc06c9a"
+  integrity sha512-70aY2FSRVd1u6q8iXY+HDQDm6598lQt/toSNLrKeQhbmzw75y40Hmg85MTDtVv1NElbRPNtsX9aPuOQVsFuOzA==
 
 create-require@^1.1.0:
   version "1.1.1"
