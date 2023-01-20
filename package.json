@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@pdfme/generator": "1.0.18",
+    "@pdfme/generator": "1.1.5",
     "date-fns": "2.29.3"
   },
   "type": "module",
