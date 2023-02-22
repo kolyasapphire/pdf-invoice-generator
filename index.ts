@@ -42,7 +42,7 @@ const config = Object.fromEntries(
 config.companyNameBottom = config.companyName
 
 let invoiceNumber = 1
-for await (const f: string of getFiles('output')) {
+for await (const f of getFiles('output')) {
   if (f.endsWith('.pdf')) invoiceNumber++
 }
 
