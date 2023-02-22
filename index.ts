@@ -1,4 +1,5 @@
 import { readFile, writeFile, mkdir } from 'fs/promises'
+import { existsSync } from 'fs'
 
 import type { Schema } from '@pdfme/generator'
 import generator from '@pdfme/generator'
@@ -42,8 +43,11 @@ const config = Object.fromEntries(
 config.companyNameBottom = config.companyName
 
 let invoiceNumber = 1
-for await (const f of getFiles('output')) {
-  if (f.endsWith('.pdf')) invoiceNumber++
+
+if (existsSync('output')) {
+  for await (const f of getFiles('output')) {
+    if (f.endsWith('.pdf')) invoiceNumber++
+  }
 }
 
 const inputs = [
